@@ -11,6 +11,7 @@ export default class App extends Component {
         <Text style={styles.container}>Iniciando as Minas</Text>
         <Text style={styles.container}>Tamanho da grade: {params.getRowsAmount()} x {params.getColumnsAmount()}</Text>
         <Field />
+        <Field opened nearMines={1}/>
       </View>
     )
   }
