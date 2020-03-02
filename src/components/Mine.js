@@ -1,9 +1,10 @@
 import React from 'react'
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, Image } from 'react-native'
 
 export default props => {
     return (
         <View style={styles.container}>
+            {/* <Image style={styles.coreMine} source={require('../Imagens/bomba.png')} /> */}
             <View style={styles.coreMine} />
             <View style={styles.line} />
             <View style={[styles.line, { transform: [{ rotate: '45deg' }] }]} />
