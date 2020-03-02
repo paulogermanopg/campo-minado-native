@@ -14,6 +14,7 @@ export default class App extends Component {
         <Field opened nearMines={1}/>
         <Field mined opened/>
         <Field mined opened exploded/>
+        <Field flagged />
       </View>
     )
   }
